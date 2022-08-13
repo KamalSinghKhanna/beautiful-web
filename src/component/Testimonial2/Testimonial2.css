@@ -1,0 +1,16 @@
+.btn-test{
+    width: 291px;
+    height: 54px;
+}
+.carousel-indicators{
+    display: none;
+}
+@media screen and (max-width:768px) {
+    .text-center{
+        margin-bottom: 5rem;
+    }
+    .carousel-box{
+        display: flex;
+        flex-direction: column !important;
+    }
+}

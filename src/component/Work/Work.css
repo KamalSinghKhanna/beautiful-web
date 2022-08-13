@@ -1,0 +1,30 @@
+.work-heading{
+    font-size: 25px !important;
+    font-weight: bold;
+    text-shadow: 0px 0px 0px rgba(0,0,0,0);
+    line-height: 1.3em;
+    text-transform: none;
+    letter-spacing: 0px;
+    text-align: center;
+    background: -webkit-linear-gradient(#db3278, #5cb4f3);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.visit-section{
+    padding: 12px 190px 12px 190px;
+}
+
+@media only screen and (max-width: 768px){
+    .work-section h1{
+        text-align: center;
+        
+    }
+
+    .work-section h1 strong{
+        font-size: 30px !important;
+    }
+    .visit-section {
+        padding: 0;
+    }
+}

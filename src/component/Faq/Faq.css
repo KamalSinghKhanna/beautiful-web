@@ -1,0 +1,43 @@
+.faq-outer{
+    background-color: #f1f3f9;
+}
+.faq-question{
+    background-color: white;
+    padding: 20px 200px 0px 200px;
+}
+
+i{
+    color: #FA70AA;
+    cursor: pointer;
+    font-size: 54px;
+   
+}
+
+.faq-question span{
+    font-family: lato;
+    color: #47525E;
+    font-size: 1.2rem;
+    text-align: left;
+    cursor: pointer;
+}
+
+
+
+.faq{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+@media screen and (max-width:768px) {
+    .faq{
+        text-align: center;
+    }
+    .faq-question{
+        padding: 0 30px;
+    }
+    .faq-question i{
+        margin-left: 15px;
+    }
+}

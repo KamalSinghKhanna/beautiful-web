@@ -1,0 +1,15 @@
+.maps{
+    height: 50vh;
+    width: 100%;
+}
+.maps iframe{
+    height: 90%;
+    width: 100%;
+}
+
+@media screen and (max-width:768px) {
+    .address{
+        text-align: center;
+        margin-top: 40px !important;
+    }
+}

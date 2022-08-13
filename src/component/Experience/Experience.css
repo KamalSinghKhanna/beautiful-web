@@ -1,0 +1,46 @@
+.Experience-outer{
+    background-color: #959db8;
+}
+  h4 strong{
+    color: #47525e;
+    font-weight: bold;
+    text-shadow: 0px 0px 0px rgba(0,0,0,0);
+    line-height: 1.3em;
+    text-transform: none;
+    font-size: 18px;
+    text-align: left;
+}
+
+.item p{
+    color: #8793b0;
+    font-weight: normal;
+    text-shadow: 0px 0px 0px rgba(0,0,0,0);
+    line-height: 1.5em;
+    text-transform: none;
+    letter-spacing: 0px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.p-experience{
+    font-family: "Lato";
+    color: #47525e;
+    font-weight: normal;
+    text-shadow: 0px 0px 0px rgba(0,0,0,0);
+    line-height: 1.5em;
+    text-transform: none;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.p-experience a{
+    color: #47525e;
+    text-decoration: underline;
+}
+
+@media screen and (max-width:768px) {
+    .item{
+        flex-direction: column;
+    }
+   
+    
+}

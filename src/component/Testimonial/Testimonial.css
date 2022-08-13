@@ -1,0 +1,36 @@
+.testimonial-outer{
+    background-color: #f1f3f9;
+}
+.testimonial{
+    /* position: relative; */
+    flex: 1;
+    font-family: 'lato';
+    font-size: 14px;
+    font-weight: bold;
+    /* padding: 10px 20px; */
+    color: #47525E;
+    line-height: unset !important;
+    font-weight: unset !important;
+    word-wrap: break-word;
+    background-color: white;
+}
+.testimonial-section{
+    margin-top: 7rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.checked{
+    color: orange;
+}
+
+.name-testimonial{
+    font-size: 16px;
+    font-weight: 900;
+}
+@media screen and (max-width:768px)  {
+    .testimonial-section{
+        flex-direction: column;
+        gap: 3rem;
+    }
+}

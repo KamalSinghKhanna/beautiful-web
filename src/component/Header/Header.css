@@ -1,0 +1,57 @@
+.header-main{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    
+
+}
+
+.left-heading{
+    flex: 1;
+    text-align: left;
+}
+
+.right-heading{
+    flex: 1;
+}
+
+
+h4{
+    font-size: 20px !important;
+    font-family: "Lato";
+    color: #484e52;
+    font-weight: normal;
+    text-shadow: 0px 0px 0px rgba(0,0,0,0);
+    line-height: 1.3em;
+    text-transform: none;
+    letter-spacing: 0px;
+    text-align: left;
+    word-break: break-word;
+}
+
+.btn-h{
+    width: 294px;
+    height: 51px;
+}
+
+@media screen and (max-width:768px) {
+    .header-main{
+        flex-direction: column;
+    }
+    .right-heading{
+        margin: auto;
+        text-align: center;
+        position: relative;
+        background-position: 50% !important;
+        background-size: cover !important;
+    }
+    .right-heading>iframe{
+        width: 340px;
+        height: 200px;
+        margin: auto;
+        text-align: center;
+        position: relative;
+        background-position: 50% !important;
+        background-size: cover !important;
+    }
+}

@@ -1,0 +1,72 @@
+
+.spots{
+    height: 430px;
+    width: 936px;
+    color: white;
+    background: linear-gradient(90deg, #f180af 0%, #8793B0 35%, #63b3ed 100%);
+}
+
+
+.spots  p{
+    font-size: 20px !important;
+    font-family: "Lato";
+    color: #ffffff;
+    font-weight: normal;
+    text-shadow: 0px 0px 0px rgba(0,0,0,0);
+    line-height: 1.5em;
+    text-transform: none;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.arrow{
+    height: 70px;
+    width: 69px;
+}
+
+.check-img{
+    height: 32px;
+
+}
+
+.check-box-text{
+    font-size: 16px !important;
+    font-family: "Lato";
+    color: #ffffff;
+    font-weight: normal;
+    text-shadow: 0px 0px 0px rgba(0,0,0,0);
+    line-height: 1.5em;
+    text-transform: none;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+
+@media screen and (max-width:768px) {
+    .spots{
+        width: 350px;
+        height: 500px;
+        align-items: center;
+        justify-content: center;
+    }
+    .spots h1 strong{
+        font-size: 30px !important;
+        
+    }
+    .spots h1{
+        text-align: center;
+    }
+    .spots p{
+        font-size: 15px !important;
+    }
+    .arrow{
+        display: none;
+    }
+    .spots button{
+        width: 340px;
+    }
+    .check-img{
+        width: 305px;
+    }
+
+}

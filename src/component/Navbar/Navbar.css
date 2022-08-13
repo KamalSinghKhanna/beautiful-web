@@ -1,0 +1,94 @@
+.Navbar {
+  position: sticky;
+  top: 0;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+.left-n {
+  flex: 1;
+  text-align: left;
+  padding-left: 6.3rem;
+}
+
+.right-n {
+  flex: 1;
+}
+
+.right-n > button {
+  width: 239px;
+  height: 51px;
+  font-size: 100;
+}
+
+.colorChange {
+  background-color: white;
+}
+
+.phone {
+  font-size: 16px;
+  display: inline-block;
+  font-weight: 400 !important;
+  /* font-family: "Montserrat"; */
+  color: #47525e;
+  margin: 0px 30px;
+}
+
+.phone-img {
+  color: #47525e;
+}
+.mob-view{
+  display: none;
+}
+
+
+@media screen and (max-width:768px) {
+  .Navbar{
+    position: sticky;
+    top: 0;
+    background-color: transparent;
+    padding:1rem 0;
+  }
+  .colorChange {
+    background-color: white;
+  }
+    .left-n{
+      justify-content: center;
+      align-items: center;
+      padding: 1rem 0 !important;
+      width:20%;
+      flex: 1;
+
+    }
+    .right-n{
+      display: flex;
+      width: 80%;
+      flex: 3;
+      justify-content: center;
+    }
+    .logo-img{
+       width: 70px;
+       height:29px;
+    }
+    .right-n .button-1{
+      width: 91px;
+      height: 29px;
+    }
+    .normal-view{
+      display: none;
+    }
+    .mob-view{
+      font-size: 10px;
+      display: block;
+    }
+    .phone-no{
+      font-size: 11px;
+      
+    }
+
+    .phone-img{
+      width: 12px;
+      height: 15px;
+    }
+}
