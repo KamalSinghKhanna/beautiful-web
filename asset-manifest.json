@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/beautiful-web/static/css/main.0aa389ee.css",
+    "main.js": "/beautiful-web/static/js/main.2731ac3b.js",
+    "static/js/787.dab3232f.chunk.js": "/beautiful-web/static/js/787.dab3232f.chunk.js",
+    "static/media/icon3.svg": "/beautiful-web/static/media/icon3.9a68fb993df72ff8033458960fd3dbef.svg",
+    "static/media/icon2.svg": "/beautiful-web/static/media/icon2.fdd2a23f91587af3e9a549c0aede759c.svg",
+    "static/media/icon1.svg": "/beautiful-web/static/media/icon1.688440c5549feb3fd3022c85aeea52c7.svg",
+    "static/media/image.svg": "/beautiful-web/static/media/image.201e582c156bc3914bbdd3fad2ce981f.svg",
+    "static/media/check.svg": "/beautiful-web/static/media/check.3a6a7866da9a88bb3699e4b85ee125a8.svg",
+    "index.html": "/beautiful-web/index.html",
+    "static/media/telephone.svg": "/beautiful-web/static/media/telephone.92e390f92427328323834e1b8ab89138.svg",
+    "main.0aa389ee.css.map": "/beautiful-web/static/css/main.0aa389ee.css.map",
+    "main.2731ac3b.js.map": "/beautiful-web/static/js/main.2731ac3b.js.map",
+    "787.dab3232f.chunk.js.map": "/beautiful-web/static/js/787.dab3232f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0aa389ee.css",
+    "static/js/main.2731ac3b.js"
+  ]
+}
