@@ -3,7 +3,7 @@ import Benefits from './component/Benefits/Benefits';
 import Consult from './component/Consult/Consult';
 import Contact from './component/Contact/Contact';
 import Experience from './component/Experience/Experience';
-import Faq from './component/Faq/Faq';
+import Faqmain from './component/Faq/Faqmain';
 import Header from './component/Header/Header';
 import Navbar from './component/Navbar/Navbar';
 import Offer from './component/Offer/Offer';
@@ -25,7 +25,7 @@ function App() {
       <Work />
       <Offer />
       <Testimonial2 />
-      <Faq />
+      <Faqmain />
       <Consult />
       <Contact />
     </div>
